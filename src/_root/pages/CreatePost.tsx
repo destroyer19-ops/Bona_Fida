@@ -9,6 +9,7 @@ const CreatePost = () => {
             src="/assets/icons/add-post.svg"
             width={36}
             height={36}
+            color="#2C163E"
             alt="add"
           />
           <h2 className="h3-bold md:h2-bold text-left w-full">Create Post</h2>

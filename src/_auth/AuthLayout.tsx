@@ -16,11 +16,11 @@ export default function AuthLayout() {
           </section>
 
           <img
-            src="/assets/images/side-img.svg"
+            src="/assets/images/2.jpg"
             alt="logo"
-            className="hidden xl:block h-screen w-1/2 object-cover bg-no-repeat"
+            className="hidden lg:block backdrop-brightness-50  h-screen w-1/2 object-cover bg-no-repeat"
           />
-        </>
+                    </>
       )}
     </>
   );

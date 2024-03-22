@@ -76,7 +76,7 @@ const SignupForm = () => {
     <Form {...form}>
       <div className="sm:w-420 flex-center flex-col">
         {/* <img src="/assets/images/logo.svg" alt="logo" /> */}
-<h1 className="text-[#2C163E] text-lg h2-bold">Bona Fida</h1>
+<h1 className="text-[#2C163E] text-lg h2-bold">Bona Fide</h1>
         <h2 className="h3-bold md:h2-bold pt-5 sm:pt-12">
           Create a new account
         </h2>

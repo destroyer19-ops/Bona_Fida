@@ -54,7 +54,8 @@ const SigninForm = () => {
   return (
     <Form {...form}>
       <div className="sm:w-420 flex-center flex-col">
-        <img src="/assets/images/logo.svg" alt="logo" />
+        <h1 className="h1-bold text-[#2C163E]">Bona Fide</h1>
+        {/* <img src="/assets/images/logo.svg" alt="logo" /> */}
 
         <h2 className="h3-bold md:h2-bold pt-5 sm:pt-12">
           Log in to your account
@@ -103,11 +104,11 @@ const SigninForm = () => {
             )}
           </Button>
 
-          <p className="text-small-regular text-light-2 text-center mt-2">
+          <p className="text-small-regular text-dark-1 text-center mt-2">
             Don&apos;t have an account?
             <Link
               to="/sign-up"
-              className="text-primary-500 text-small-semibold ml-1">
+              className="text-[#2C163E] text-small-semibold ml-1">
               Sign up
             </Link>
           </p>

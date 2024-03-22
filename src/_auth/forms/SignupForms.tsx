@@ -5,12 +5,12 @@ import { useForm } from "react-hook-form";
 import { Button } from "@/components/ui/button";
 // import { Button } from "@/components/ui/button"
 import {
-  Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage,
+  Form, FormControl, FormField, FormItem, FormLabel, FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { SignupValidation } from "@/lib/validation";
 import Loader from "@/components/shared/Loader";
-import { createUSerAccount } from "@/lib/appwrite/api";
+import { createUserAccount } from "@/lib/appwrite/api";
 
 // const formSchema = z.object({
 //   username: z.string().min(2).max(50),
@@ -32,7 +32,7 @@ const isLoading = false;
   // 2. Define a submit handler.
   async function onSubmit(values: z.infer<typeof SignupValidation>) {
     // create user
-    const newUser = await createUSerAccount(values) 
+    const newUser = await createUserAccount(values) 
     console.log(newUser);
     
 
@@ -41,7 +41,8 @@ const isLoading = false;
 
     <Form {...form}>
       <div className="sm:w-420 flex-center flex-col">
-        <img src="/assets/images/logo.svg" alt="logo" />
+        {/* <img src="/assets/images/logo.svg" alt="logo" /> */}
+        <h1 className="text-[#2C163E] text-lg h2-bold">Bona Fide</h1>
 
         <h2 className="h3-bold md:h2-bold pt-5 sm:pt-12">Setup your account</h2>
         <p className="text-light-3 small-medium md:base-regular mt-2">Enter your details to create your seller account</p>
